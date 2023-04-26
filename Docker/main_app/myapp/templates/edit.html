@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit data</title>
+</head>
+<body>
+    <h1>Edit data</h1>
+    <form method="post">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="{{ data.name }}" required>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="{{ data.email }}" required>
+        </p>
+        <p>
+            <input type="submit" value="Save">
+        </p>
+    </form>
+</body>
+</html>
